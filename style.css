@@ -8,7 +8,7 @@ body {
 }
 
 /* Altera o estilo do título (elemento HTML "h1") */
-h1 {
+h1.titulo {
     /* Usa a fonte importada do Google Fonts */
     font-family: "Playfair Display", serif;;
     /* Altera a cor da fonte */
@@ -22,8 +22,8 @@ h1 {
 
 /* Altera o estilo da caixa de texto "Adicionar nova tarefa" */
 input[type="text"] {
-    background-color: #b0d8fb;
-    border: 1px solid rgb(186, 229, 250);
+    background-color: #ccedfd;
+    border: 1px solid rgb(22, 177, 255);
 }
 
 /* Altera o estilo do botão "Adicionar" nova tarefa */
@@ -41,16 +41,17 @@ input[type="text"] {
 
 /* Altera o estilo das tarefas adicionadas */
 .list-group-item {
-    background-color: #afdcfc;
-    border: 1px solid rgb(137, 211, 245);
+    background-color: rgb(208, 234, 246) ;
+    border: 1px solid rgb(54, 179, 236);
 }
 
 /* Altera o estilo do botão de Concluir */
-.btn-success {
+.btn-concluir {
     background-color: rgb(79, 79, 247);
 }
 
 /* Altera o estilo do botão de Excluir */
-.btn-danger {
+.btn-excluir {
     background-color: rgb(140, 182, 229);
+    border: blue;
 }
